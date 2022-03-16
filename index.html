@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test02</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main-component">
+        <section class="esquerda">
+            <nav>
+                <div class="nav-container"> 
+                    <div class="nav-container--logo">
+                        <img src="caixa02.png" alt="caixa" height="40px">
+                    </div>
+                    <div class="nav-container--navigation">
+                        <a class="nav-container--button" href="google.com.br">Service</a>
+                    </div>
+                    <div class="nav-container--navigation">
+                        <a class="nav-container--button" href="google.com.br">Rates</a>
+                    </div>
+                    <div class="nav-container--navigation">
+                        <a class="nav-container--button" href="google.com.br">Post Offices</a>
+                    </div>
+                    <div class="nav-container--navigation">
+                        <a class="nav-container--button" href="google.com.br">Vacancies</a>
+                    </div>
+        
+        
+                </div>
+               
+            </nav>
+            <section class="principal">
+                <section class="principal-inner">
+                    <section class="principal-inner--text">
+                        <div class="principal-inner--text--tittle">Express delivery</div>
+                        <div class="principal-inner--text--subtittle">of documents</div>
+                        <div class="principal-inner--text--xtittle">worldwide</div>
+                        <br>
+                        
+        
+                    </section>
+                    <section class="principal-inner--stext">
+                        <div class="principal-inner--stext--tittle">A team of professionals with experience in various areas of logistics</div>
+                        <div class="principal-inner--stext--subtittle">and able to provide our customers with the highest level of service.</div>
+        
+                    </section>
+                    <selection class="principal-inner--quadradocinza"></selection>
+                    <selection class="principal-inner--quadradolaranja"></selection>
+                    <selection class="principal-inner--quadradoverde"></selection>
+                    
+                </section>
+                
+            </section>
+        </section>
+
+        <section class="direita">
+            <section class="direita-p">
+                <nav class="direita-p--navegation"> 
+                    <div class="direita-p--navegation--x">
+
+                         <div class="direita-p--navegation nav-container2">
+                            <a class="nav-container2--button" href="google.com.br">Send</a>
+                            <a class="nav-container2--button" href="google.com.br">Receive</a>
+                        </div>
+                        <div class="direita-p--navegation navegation--idioma">
+                            <a class="navegation--idioma--button" href="google.com.br">EN</a>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+
+            <h1>
+                Calculate shipping cost
+            </h1>
+           <section class="formulario">
+                <form class="formulario" action="#" method="post">
+                    
+                    <section class="formulario--um">
+                        <div class="formulario--um__campo">
+                            <legend>from</legend>
+                            <input type="text" size="10" placeholder="Enter" >
+                        </div>
+        
+                        <div class="formulario--um__campo">
+                            <legend>to</legend>
+                            <input type="text" size="10" placeholder="Enter">
+                        </div>
+                    </section>
+                       
+                    <section class="formulario--um">
+                        <div class="formulario--um__campo">
+                            <legend>Departure Type</legend>
+                            <select style="padding: 10px; width: 100%;" name="Departure Type">
+                                <option>Package</option>
+                                <option>outro</option>
+                            </select>
+                        </div>
+                    </section>
+                    <section class="formulario--um">
+                        <div class="formulario--um__campo">
+                            <legend>Service Type</legend>
+                            <select style="padding: 10px; width: 100%;" name="Service Type">
+                                <option>To the post office</option>
+                                <option>outro</option>
+                           </select>
+                        </div>
+                    </section>
+                    <br>
+                    <section class="formulario--range">
+                        <legend>Total Weight,Kg</legend> 
+                        <input  type="range" id="firstslider" value="10" min="0" max="250"   onchange="showvalue(this.value)" />  
+                        
+                    </section>
+
+                    <section class="formulario--tres">
+                        <div >
+                        <legend>Length,cm</legend>
+                        <br>
+                        <input type="text" size="5">
+                    </div>
+                    <div >
+                         <legend>Width,cm</legend>
+                         <br>
+                        <input type="text" size="5">
+                    </div>
+                    <div >
+                        <legend>Height,cm</legend>
+                        <br>
+                        <input type="text" size="5">
+                    </div>
+                        
+                    </section>
+                    <button class="formulario--button" type="submit">Calculate the cost</button>
+
+                    
+        
+                </form>
+                </section>
+        </section>
+    </main>
+</body>
+</html>
